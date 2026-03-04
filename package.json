@@ -22,9 +22,10 @@
 	},
 	"homepage": "https://github.com/Pretty-Flacko/odin-tests#readme",
 	"devDependencies": {
+		"@babel/preset-env": "^7.29.0",
 		"@eslint/js": "^9.39.2",
 		"css-loader": "^7.1.2",
-		"css-minimizer-webpack-plugin": "^7.0.2",
+		"css-minimizer-webpack-plugin": "^8.0.0",
 		"eslint": "^9.39.2",
 		"eslint-config-prettier": "^10.1.8",
 		"globals": "^16.5.0",

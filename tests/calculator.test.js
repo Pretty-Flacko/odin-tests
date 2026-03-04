@@ -10,7 +10,7 @@ describe("calculator", () => {
 	});
 
 	test("multiplies two numbers", () => {
-		expect(calculator.multuply(4, 5)).toBe(20);
+		expect(calculator.multiply(4, 5)).toBe(20);
 	});
 
 	test("divides two numbers", () => {

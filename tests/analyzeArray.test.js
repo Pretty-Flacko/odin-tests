@@ -12,7 +12,7 @@ describe("analyzeArray", () => {
 	});
 
 	test("finds maximum correctly", () => {
-		expect(analyzeArray(arr).min).toBe(8);
+		expect(analyzeArray(arr).max).toBe(8);
 	});
 
 	test("calculates length correcly", () => {
@@ -23,9 +23,9 @@ describe("analyzeArray", () => {
 		const arr2 = [-3, -7, -2];
 
 		expect(analyzeArray(arr2)).toEqual({
-			average: -2.6666666666666665,
+			average: -4,
 			min: -7,
-			max: 2,
+			max: -2,
 			length: 3,
 		});
 	});
